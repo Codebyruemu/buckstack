@@ -10,7 +10,7 @@ const Incomeboardtwo = () => {
 
     }, [])
   return (
-    <div>
+    <div  className='container'>
       <div className="d-container-fluid d-sm-container my-3" >
       <div className="row ">
         <div className="d-flex text-white gap-2 gap-sm-5 align-items-center">

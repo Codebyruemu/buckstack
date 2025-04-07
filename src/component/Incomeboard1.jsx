@@ -1,4 +1,5 @@
 import React,{useState,useEffect} from 'react'
+import { Link } from 'react-router-dom'
 
 
 const Incomeboard1 = () => {
@@ -10,7 +11,7 @@ const Incomeboard1 = () => {
 
     }, [])
 
-    const button = {
+    const withdraw_button = {
         border: '5px solid transparent',
         background:'white',
         color: 'black',
@@ -39,25 +40,25 @@ const Incomeboard1 = () => {
                     <p className='fw-bold my-0'>Balance</p>
                 </div>
                 <div className="d-flex flex-column col-sm-4 gap-3 mt-3">
-                    <a href="#">
+                    <Link to='/recharge'>
                             <button
-                                style={button}
+                                style={withdraw_button}
                                 onMouseEnter={() => setIsHovered(true)} // Set hover state to true
                                 onMouseLeave={() => setIsHovered(false)} // Set hover state to false
                             >
                                 Top up
                             </button>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link to='/withdraw'>
                         <button
                             className="bg-dark text-white"
-                            style={button}
+                            style={withdraw_button}
                             onMouseEnter={() => setIsHovered(true)} // Set hover state to true
                             onMouseLeave={() => setIsHovered(false)} // Set hover state to false
                         >
                             Withdraw
                         </button>
-                    </a>
+                    </Link>
                 </div>
             </div>
             

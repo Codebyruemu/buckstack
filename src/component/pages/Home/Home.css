@@ -1,0 +1,11 @@
+.header-head{
+    background-color: rgb(31,41,55);
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.header-head img{
+    height: 70px;
+    width: 70px;
+}

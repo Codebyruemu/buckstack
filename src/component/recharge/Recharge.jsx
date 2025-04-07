@@ -14,16 +14,16 @@ const Recharge = () => {
         </div>
         <div className="row gap-2 align-items-center  ps-5">
             <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(3000)}>&#8358;3000</button>
-            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(3000)}>&#8358;6000</button>
-            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(3000)}>&#8358;10000</button>
-            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(3000)}>&#8358;20000</button>
-            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(3000)}>&#8358;30000</button>
-            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(3000)}>&#8358;50000</button>
-            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(3000)}>&#8358;70000</button>
-            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(3000)}>&#8358;100000</button>
-            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(3000)}>&#8358;200000</button>
-            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(3000)}>&#8358;500000</button>
-            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(3000)}>&#8358;1000000</button>
+            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(6000)}>&#8358;6000</button>
+            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(10000)}>&#8358;10000</button>
+            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(20000)}>&#8358;20000</button>
+            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(30000)}>&#8358;30000</button>
+            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(50000)}>&#8358;50000</button>
+            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(70000)}>&#8358;70000</button>
+            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(100000)}>&#8358;100000</button>
+            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(200000)}>&#8358;200000</button>
+            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(500000)}>&#8358;500000</button>
+            <button className="col-3 btn border-success bg-white text-success" onClick={()=>handleChange(1000000)}>&#8358;1000000</button>
         
         </div>
         <div className="row mt-5 ps-5">
@@ -31,7 +31,7 @@ const Recharge = () => {
            <div className="input-group mb-3">
                 <span className="input-group-text">&#8358;</span>
                 <input type="number" className="col-12 form-control " placeholder={amount === 0 ? `Enter the recharge amount` : `${amount}`} 
-                    value={amount} onChange={(e)=>handleChange(Number(e.target.value))}/>
+                    value={amount || ''} onChange={(e)=>handleChange(Number(e.target.value))}/>
             </div>
         </div>
         <div className="row my-3 ps-5">

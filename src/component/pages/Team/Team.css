@@ -1,0 +1,76 @@
+/* .container {
+    padding: 20px;
+} */
+
+
+.invite-card {
+    background: #008040;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.invite-card a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.stats {
+    display: flex;
+    justify-content: space-between;
+    background: #1a1a2e;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.stat-item {
+    flex: 1;
+}
+.direct-referral {
+    background: #008040;
+    color: rgb(15,17,30);
+    padding: 15px;
+    border-radius: 7px 7px 0 0;
+    font-weight: bold;
+}
+.referral-details {
+    background: #1a1a2e;
+    color: white;
+    padding: 20px;
+    border-radius: 0 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+.referral-details p {
+    font-size: 15px;
+}
+.referral-details::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    bottom: 10%;
+    width: 1px;
+    background: white;
+    transform: translateX(-50%);
+}
+.view-team {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background: #1a1a2e;
+    border-radius: 0 0 7px 7px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    font-size: 13px;
+}
+strong{ 
+    color: rgb(15,17,30);
+    font-size: 14px;
+}

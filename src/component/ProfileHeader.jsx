@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 const ProfileHeader = () => {
@@ -6,9 +7,9 @@ const ProfileHeader = () => {
     <div className="container">
       <div className='row bg-success text-white pt-3 pb-2'>
           <div className='d-flex'>
-             <a href="#">
+             <Link to='/home'>
                 <i className="col-1 bi bi-chevron-left text-white"></i>
-              </a> 
+              </Link> 
               <p className="col-11 text-center fw-bold">profile</p>
           </div>
           

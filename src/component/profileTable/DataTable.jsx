@@ -19,7 +19,7 @@ const DataTable = () => {
             rows,
             prepareRow} = tableInstance
     const Bg2={
-                backgroundColor:'hsl(241, 77.80%, 12.40%)',  
+                backgroundColor:'rgb(5,16,47)',  
             }
   return (
     <div className='container'>

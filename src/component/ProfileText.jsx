@@ -33,7 +33,7 @@ const ProfileText = () => {
         </div>
         <div className="row" style={Bg3}>
             <div className="col-12 text-center" >
-                <p className='fs-4 fw-bold text-white'>NOTE: You can earn without reffering</p>
+                <p className='fs-4 fw-bold text-white'>NOTE: You can earn without refering</p>
             </div>
         </div>
     </div>
