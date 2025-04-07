@@ -1,0 +1,12 @@
+[{"Plan":"BSVIP1", "price":3000, "Income_Every_20_hours":750, "Duration":"30days", "Total_Income":27000},
+{"Plan":"BSVIP2", "price":6000, "Income_Every_20_hours":1500, "Duration":"30days", "Total_Income":54000},
+{"Plan":"BSVIP3", "price":10000, "Income_Every_20_hours":2500, "Duration":"30days", "Total_Income":90000},
+{"Plan":"BSVIP4", "price":20000, "Income_Every_20_hours":5000, "Duration":"30days", "Total_Income":150000},
+{"Plan":"BSVIP5", "price":30000, "Income_Every_20_hours":7500, "Duration":"30days", "Total_Income":270000},
+{"Plan":"BSVIP6", "price":50000, "Income_Every_20_hours":12000, "Duration":"30days", "Total_Income":450000},
+{"Plan":"BSVIP7", "price":70000, "Income_Every_20_hours":17500, "Duration":"30days", "Total_Income":630000},
+{"Plan":"BSVIP8", "price":100000, "Income_Every_20_hours":25000, "Duration":"30days", "Total_Income":900000},
+{"Plan":"BSVIP9", "price":200000, "Income_Every_20_hours":50000, "Duration":"30days", "Total_Income":1800000},
+{"Plan":"BSVIP10", "price":500000, "Income_Every_20_hours":125000, "Duration":"30days", "Total_Income":4500000},
+{"Plan":"BSVIP11", "price":1000000, "Income_Every_20_hours":250000, "Duration":"30days", "Total_Income":9000000}
+]

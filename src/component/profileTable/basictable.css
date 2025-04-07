@@ -1,0 +1,29 @@
+table {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #0f9c68;
+    font-weight:bolder;
+
+  }
+  
+  table td, table th {
+    border: 2px solid #1f0541;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    
+  }
+  
+  table tr:nth-child(even){background-color: #0f0850b2;}
+  
+  table tr:hover {background-color: #4c7788;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #0f9c68;
+    color: white;
+}
